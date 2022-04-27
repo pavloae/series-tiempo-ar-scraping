@@ -11,7 +11,7 @@ from email.mime.text import MIMEText
 from email.utils import formatdate
 
 import pandas as pd
-from xlseries import XlSeries
+from .xlseries.xlseries import XlSeries
 
 import pydatajson.readers as readers
 import pydatajson.writers as writers
